@@ -2,6 +2,9 @@
 # other sophisticated conditions (eg, val loss or other statistics) can be arg max of these
 # account for partial backward
 
+def optimizer_schduler():
+    pass
+
 class generalized_optimizer(): # wraps torch.optim
     def __init__(self, config):
         super(generalized_optimizer, self).__init__(optimizer, condition=None) # optimizer is required 

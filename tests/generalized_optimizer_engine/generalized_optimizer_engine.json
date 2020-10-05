@@ -15,7 +15,7 @@
       },
       "deactivate": {
         "time": 3,
-        "layer": 6,
+        "named_layer": 6,
         "loss": 2,
         "communication": 1.2
       }
